@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TodoList from './TodoList';
 import Clock from './Timer';
+import Weather from './Weather';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <div className="container">
     <TodoList/>
     <Clock/>
+    <Weather weather='맑음'/>
     </div>
   );
 }
